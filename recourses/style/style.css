@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Sudo";
+    src: url('./sudo/Sudo-Regular.ttf') format('truetype'),
+         url('./sudo/Sudo-Bold.ttf') format('truetype');
+}
+
+html {
+    margin: 0 auto;
+    width: 50%;
+    font-family: "Sudo";
+}
+
+/* ---------------------------------------------- */
+
+header {
+    display: flex;;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Sudo";
+    font-weight: bold;
+}
+
+nav {
+    width: 31%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style-type: none;
+    margin-left: 5%;
+}
+
+a {
+    color: black;
+}
+
+/* ---------------------------------------------- */
+
+#about-me {
+    margin-left: 3.5%;
+}
+
+/* ---------------------------------------------- */
+
+#main-info {
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+}
+
+#my-img {
+    height: 90%;
+    border-radius: 10%;
+}
+
+.text {
+    width: 50%;
+    font-size: 1.2em;
+    margin-left: 5%;  
+}
+
+/* ---------------------------------------------- */
+
+#skills-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+}
