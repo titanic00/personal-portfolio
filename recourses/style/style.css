@@ -1,84 +1,82 @@
-                    @font-face {
-                    font-family: "Sudo";
-                    src: url('./sudo/Sudo-Regular.ttf') format('truetype'), url('./sudo/Sudo-Bold.ttf') format('truetype');
-                }
-                
-                html {
-                    margin: 0 auto;
-                    width: 50%;
-                    font-family: "Sudo";
-                }
-                /* ---------------------------------------------- */
-                
-                header {
-                    display: flex;
-                    ;
-                    justify-content: space-between;
-                    align-items: center;
-                    font-family: "Sudo";
-                    font-weight: bold;
-                    font-size: 1.5em;
-                    box-sizing: border-box;
-                }
-                
-                #page-one {
-                    width: 40%;
-                }
-                
-                #page-two {
-                    width: 35%;
-                    =======
-                }
-                
-                nav {
-                    width: 31%;
-                    >>>>>>>b2d9838396c0dd8a4f8a52ab4d8d313a11142b15
-                }
-                
-                nav ul {
-                    display: flex;
-                }
-                
-                nav li {
-                    list-style-type: none;
-                    margin-left: 5%;
-                }
-                
-                a {
-                    color: black;
-                }
-                /* ---------------------------------------------- */
-                
-                #about-me {
-                    margin-left: 3.5%;
-                }
-                /* ---------------------------------------------- */
-                
-                <<<<<<< HEAD #main-info,
-                #projects-info {
-                    =======#main-info {
-                        >>>>>>>b2d9838396c0dd8a4f8a52ab4d8d313a11142b15 display: flex;
-                        height: 50%;
-                        justify-content: space-between;
-                    }
-                    #my-img {
-                        height: 90%;
-                        border-radius: 10%;
-                    }
-                    .text {
-                        width: 50%;
-                        font-size: 1.2em;
-                        margin-left: 5%;
-                    }
-                    /* ---------------------------------------------- */
-                    #skills-container {
-                        display: flex;
-                        justify-content: space-between;
-                        font-size: 2em;
-                        <<<<<<< HEAD
-                    }
-                    /* ---------------------------------------------- */
-                    .project-item h3 {
-                        display: inline;
-                        =======>>>>>>>b2d9838396c0dd8a4f8a52ab4d8d313a11142b15
-                    }
+            @font-face {
+                font-family: "Sudo";
+                src: url('./sudo/Sudo-Regular.ttf') format('truetype'), url('./sudo/Sudo-Bold.ttf') format('truetype');
+            }
+            
+            html {
+                margin: 0 auto;
+                width: 50%;
+                font-family: "Sudo";
+            }
+            /* ---------------------------------------------- */
+            
+            header {
+                display: flex;
+                ;
+                justify-content: space-between;
+                align-items: center;
+                font-family: "Sudo";
+                font-weight: bold;
+                font-size: 1.5em;
+                box-sizing: border-box;
+            }
+            
+            #page-one {
+                width: 40%;
+            }
+            
+            #page-two {
+                width: 35%;
+            }
+            
+            nav {
+                width: 31%;
+            }
+            
+            nav ul {
+                display: flex;
+            }
+            
+            nav li {
+                list-style-type: none;
+                margin-left: 5%;
+            }
+            
+            a {
+                color: black;
+            }
+            /* ---------------------------------------------- */
+            
+            #about-me {
+                margin-left: 3.5%;
+            }
+            /* ---------------------------------------------- */
+            
+            #projects-info {
+                display: flex;
+                height: 50%;
+                justify-content: space-between;
+            }
+            
+            #my-img {
+                height: 90%;
+                border-radius: 10%;
+            }
+            
+            .text {
+                width: 50%;
+                font-size: 1.2em;
+                margin-left: 5%;
+            }
+            /* ---------------------------------------------- */
+            
+            #skills-container {
+                display: flex;
+                justify-content: space-between;
+                font-size: 2em;
+            }
+            /* ---------------------------------------------- */
+            
+            .project-item h3 {
+                display: inline;
+            }
