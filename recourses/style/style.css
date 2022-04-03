@@ -18,10 +18,16 @@ header {
     align-items: center;
     font-family: "Sudo";
     font-weight: bold;
+    font-size: 1.5em;
+    box-sizing: border-box;
 }
 
-nav {
-    width: 31%;
+#page-one {
+    width: 40%;
+}
+
+#page-two {
+    width: 35%;
 }
 
 nav ul {
@@ -45,7 +51,8 @@ a {
 
 /* ---------------------------------------------- */
 
-#main-info {
+#main-info,
+#projects-info {
     display: flex;
     height: 50%;
     justify-content: space-between;
@@ -68,4 +75,10 @@ a {
     display: flex;
     justify-content: space-between;
     font-size: 2em;
+}
+
+/* ---------------------------------------------- */
+
+.project-item h3 {
+    display: inline;
 }
